@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  contenido: MyString
+  autor: MyString
+  fecha: 2024-10-31
+  aprobado_por: MyString
+  respuesta: MyString
+  genero: MyString
+
+two:
+  contenido: MyString
+  autor: MyString
+  fecha: 2024-10-31
+  aprobado_por: MyString
+  respuesta: MyString
+  genero: MyString

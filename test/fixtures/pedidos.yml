@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cliente: MyString
+  fecha: 2024-10-31
+  estado: MyString
+  productos: MyString
+  metodo: MyString
+  genero: MyString
+
+two:
+  cliente: MyString
+  fecha: 2024-10-31
+  estado: MyString
+  productos: MyString
+  metodo: MyString
+  genero: MyString

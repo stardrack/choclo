@@ -1,0 +1,47 @@
+<%= form_with(model: comentario) do |form| %>
+  <% if comentario.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(comentario.errors.count, "error") %> prohibited this comentario from being saved:</h2>
+
+      <ul>
+        <% comentario.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :contenido, style: "display: block" %>
+    <%= form.text_field :contenido %>
+  </div>
+
+  <div>
+    <%= form.label :autor, style: "display: block" %>
+    <%= form.text_field :autor %>
+  </div>
+
+  <div>
+    <%= form.label :fecha, style: "display: block" %>
+    <%= form.date_field :fecha %>
+  </div>
+
+  <div>
+    <%= form.label :aprobado_por, style: "display: block" %>
+    <%= form.text_field :aprobado_por %>
+  </div>
+
+  <div>
+    <%= form.label :respuesta, style: "display: block" %>
+    <%= form.text_field :respuesta %>
+  </div>
+
+  <div>
+    <%= form.label :genero, style: "display: block" %>
+    <%= form.text_field :genero %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

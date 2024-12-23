@@ -9,7 +9,7 @@ gem "pg", "~> 1.1"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem 'importmap-rails','2.0.3'
+gem 'importmap-rails','2.1.0'
 gem 'turbo-rails','2.0.11'
 gem 'stimulus-rails','1.3.4'
 gem 'web-console','4.2.1'
